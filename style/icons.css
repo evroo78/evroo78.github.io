@@ -1,0 +1,36 @@
+.icon {
+	width: 16px;
+	height: 16px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.home-icon{
+	background-image: url('/icons/address.png');
+}
+
+
+.phone-icon{
+	background-image: url('/icons/calling.png');
+}
+
+.email-icon{
+	background-image: url('/icons/email.png');
+}
+
+.linkedin-icon{
+	background-image: url('/icons/linkedin.png');
+}
+
+.gscolar-icon{
+	background-image: url('/icons/scholar.png');
+}
+
+.telegram-icon{
+background-image: url('/icons/telegram.svg');
+}
+
+.github-icon{
+	background-image: url('/icons/favicon-dark.svg');
+}
