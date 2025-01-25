@@ -96,6 +96,7 @@ ul {
 	list-style-type: disc; /* Круглі маркери (за замовчуванням) */
 	color: var(--primary-color);
 	margin: 0;
+	padding: 0;
 }
 
 ul li {
@@ -112,7 +113,7 @@ ul li::before {
   }
 
 li {
-	margin-left: 24px;
+	margin-left: 32px;
 	line-height: 1.5em;
 }
 
