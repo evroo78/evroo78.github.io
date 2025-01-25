@@ -1,3 +1,3 @@
 function downloadResume() {
-    window.location.href = "../Shevliakova-CV.pdf";
+    window.location.href = "Shevliakova-CV.pdf";
 }
