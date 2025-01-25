@@ -10,12 +10,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 	
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/icons.css">
+	<link rel="stylesheet" type="text/css" href="style/modal.css">
 </head>
 		
 <body>
-	<header>
+	<div id="content"></div>
+	<header class="horisontal-flex">
 		<div class="photo"></div>
 		<div class="vertical-flex">
 			<h1>Hanna Shevliakova</h1>
@@ -24,23 +27,40 @@
 	</header>
 		<div class="main-content">
 			<div class="main-info">
+				<div class="main-text">
+					An analytical and goal-oriented professional with a 
+					responsible approach to work and a strong ability to 
+					learn quickly. I enjoy working with code, optimizing it, 
+					and finding solutions even in complex situations. With 
+					experience in education, I excel at explaining complex 
+					concepts in simple terms, facilitating effective 
+					communication within a team. I have practical 
+					experience in science and have published articles in 
+					high-ranking journals, demonstrating my analytical 
+					skills, attention to detail, and ability to solve 
+					complex problems. I am also skilled in preparing 
+					reports and documentation. I value task clarity and 
+					the versatility of approaches to problem-solving and 
+					am not afraid to ask clarifying questions to ensure 
+					project success.
+				</div>
 				<div>
 					<h2>Work Experience</h2>
-					<div>
+					<div class="block-content">
 						<h3>Lecturer</h3>
 						<div class="comment">2021-until today | Department of Microelectronics of the Igor Sikorsky Kyiv Polytechnic
 							Institute</div>
-							<h4></h4>
+							<p></p>
 						</div>
-					<div>
+					<div class="block-content">
 						<h3>Teacher of Computer Science</h3>
 						<div class="comment">2021-2023 | Polytechnic Lyceum of NTUU "KPI"</div>
-						<h4></h4>
+						<p></p>
 					</div>
-					<div>
+					<div class="block-content">
 						<h3>Senior laboratory assistant</h3>
 						<div class="comment">2018-2020 | Department of Microelectronics of the Igor Sikorsky Kyiv Polytechnic Institute</div>
-						<h4></h4>
+						<p></p>
 					</div>
 				</div>
 				<div>
@@ -49,11 +69,13 @@
 						<h3>Postgraduate studies</h3>
 						<div class="comment">2018 - 2021 | Igor Sikorsky Kyiv Polytechnic Institute</div>
 						<h4>153 Micro- and nanosystem technology</h4>
+						<p></p>
 					</div>
 					<div class="block-content">
 						<h3>Master's degree</h3>
 						<div class="comment">2016 - 2018 | Igor Sikorsky Kyiv Polytechnic Institute</div>
 						<h4>153 Micro- and nanosystem technology</h4>
+						<p></p>
 					</div>
 					<div class="block-content">
 						<h3>Informal Education</h3>
@@ -69,6 +91,7 @@
 								Python: Principles of object-oriented programming
 							</a>
 						</h4>
+						<p></p>
 						<!-- 2024 Jul -->
 						<div class="comment">10.07.2024-25.09.2024 | 
 							CyberBionic Systematics
@@ -78,11 +101,13 @@
 								Free JavaScript programming course
 							</a>
 						</h4>
+						<p></p>
 						<!-- 2023 Mar -->
 						<div class="comment">08.03.2023-14.03.2023 | 
 							GoIT
 						</div>
 						<h4>Test Drive of IT Professions</h4>
+						<p></p>
 						<!-- 2022 Jul -->
 						<div class="comment">05.07.2022-28.07.2022 | 
 							Kharkiv IT Cluster | 
@@ -95,51 +120,57 @@
 								Front-End & JavaScript
 							</a>
 						</h4>
+						<p></p>
 					</div>
 				</div>
+				<div class="block-content">
 				<div>
 					<h2>Projects</h2>
 					<div class="comment">2024 | Python, OOP </div>
 					<h4>
 						<a href="https://replit.com/@evroo78/Shop-of-Electric-Components#Read_me.md">
-							OOP Realisation in Shop of Electronic Components 
+							OOP Realisation in Shop of Electronic Components 🔗
 						</a>
 					</h4>
+					<p></p>
 					<div class="comment">2023 | JavaScript | Google Apps Script</div>
 					<h4>
 						<a href="https://script.google.com/d/19XoJG5DaFErnWdme9pffSIrnyvqDKC3osrCiCaR29YXTHjiYvj6LJD13/edit?usp=sharing">
 							Google Sheets to Google Form by Variants 🔗
 						</a>
 					</h4>
+					<p></p>
 					<div class="comment">2023 | HTML, CSS, Neltyfy</div>
 					<h4>
 						<a href="https://github.com/evroo78/goIT-BanderoGus/">
 							BanderoGus 🔗
 						</a>
 					</h4>
+					<p></p>
 					<div class="comment">2022 | HTML, CSS, JavaScript, Bootstrap</div>
 					<h4>
 						<a href="https://github.com/evroo78/StrawHatPirates-ITcluster-2022">
 						Straw Hat Pirates officail Website 🔗
 						</a>
 					</h4>
-					
+					<p></p>
 				</div>
 			</div>
+		</div>
 			<aside>
 				<div>
 					<h2>Contacts</h2>
 					<div class="block-content2">
-						<span>
-							<div class="icon home-icon"></div>
-							<div class="icon phone-icon"></div>
-							<div class="icon email-icon"></div>
-							<div class="icon linkedin-icon"></div>
-							<div class="icon gscolar-icon"></div>
-							<div class="icon telegram-icon"></div>
-							<div class="icon github-icon"></div>
-						</span>
-						<div>
+						<div class="contacts">
+							<div class="icon home-icon"> </div>
+							<div class="icon phone-icon"> </div>
+							<div class="icon email-icon"> </div>
+							<div class="icon linkedin-icon"> </div>
+							<div class="icon gscolar-icon"> </div>
+							<div class="icon telegram-icon"> </div>
+							<div class="icon github-icon"> </div>
+						</div>
+						<div class="contacts">
 							<a href="https://maps.app.goo.gl/AoihMXXj5Y9pTpQV7"> Brovary, Ukrain</a><br>
 							<a href="tel:+380958563996"> +38 095 856 39 96</a><br>
 							<a href="mailto:shevliakova.hv@gmail.com"> shevliakova.hv@gmail.com</a><br>
@@ -195,5 +226,35 @@
 				</div>
 			</aside>
 		</div>
+		<!-- Модальне вікно -->
+		<div id="modal" class="modal">
+			<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Contact Us</h2>
+			<form id="contactForm">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				<label for="message">Message:</label>
+				<br>
+				<textarea id="message" name="message" required></textarea>
+				<br>
+				<button type="submit">Send</button>
+			</form>
+			</div>
+		</div> 
+	</div>
+		<footer class="horisontal-flex">
+			<button id="openModal">Contact Me</button>
+			<br>
+			<button id="generate-pdf">Download Resume</button>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+		<script src="scripts/script.js""></script>
+		<script src="scripts/modal.js"></script>
 	</body>
 </html>
