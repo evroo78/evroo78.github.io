@@ -30,7 +30,7 @@ header {
 	width: 200px;
 	height: 200px;
 	border: solid;
-	background-image: url("../My_photo.png");
+	background-image: url("/My_photo.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
